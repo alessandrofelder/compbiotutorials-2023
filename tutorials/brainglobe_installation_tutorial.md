@@ -8,15 +8,17 @@ You are now in a fresh conda environment named `brainglobe-environment` with all
 
 ## Checking that the installation worked
 
-1. In a terminal, run `conda list | grep 'cellfinder*\|brain*'`. The output should be similar to the table below
+1. In a terminal, run `conda list | grep 'cellfinder*\|brain*\|bg-*'`. The output should be similar to the table below
 ```
-brainglobe-napari         0.0.1                    pypi_0    pypi
+bg-atlasapi               1.0.2                    pypi_0    pypi
+bg-space                  0.6.0                    pypi_0    pypi
 brainglobe-napari-io      0.1.5                    pypi_0    pypi
 brainreg                  0.4.0                    pypi_0    pypi
 brainreg-napari           0.1.1                    pypi_0    pypi
 brainreg-segment          0.2.16                   pypi_0    pypi
 cellfinder                0.4.21                   pypi_0    pypi
 cellfinder-core           0.4.0                    pypi_0    pypi
+cellfinder-napari         0.0.20                   pypi_0    pypi
 cellfinder-napari         0.0.20                   pypi_0    pypi
 ```
 2. Run `napari` in your terminal. A `napari` window should appear 
