@@ -19,6 +19,17 @@ classifiers = [
     "License :: OSI Approved :: BSD License",
 ]
 
+dependencies = [
+  "cellfinder",
+  "cellfinder-core",
+  "cellfinder-napari",
+  "brainreg",
+  "brainreg-napari",
+  "brainreg-segment",
+  "brainglobe-napari@git+https://github.com/brainglobe/brainglobe-napari",
+  "jupyterlab"
+  ]
+
 [project.urls]
 homepage = "https://github.com/alessandrofelder/compbiotutorials-2023"
 bug_tracker = "https://github.com/alessandrofelder/compbiotutorials-2023/issues"
