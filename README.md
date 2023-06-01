@@ -6,5 +6,5 @@ In a terminal
 3. Follow the instructions in `brainglobe_installation_instructions.md`
 4. Follow the cell-detection tutorial (`cell_detection_tutorial.ipynb`) or the ([brainreg tutorial](https://docs.brainglobe.info/brainreg/tutorial)) or
 5. Try out the BrainGlobe napari plugins ([`cellfinder-napari`](https://docs.brainglobe.info/cellfinder-napari/user-guide/cell-detection) or [`brainreg-napari`](https://docs.brainglobe.info/brainreg-napari/tutorial))
-6. Follow the instructions to make your first `napari` plugin!
+6. Follow the [instructions](https://napari.org/stable/plugins/first_plugin.html) to make your first `napari` plugin!
 
